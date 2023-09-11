@@ -1,7 +1,7 @@
 # Welcome!
 This is an unofficial guide to install Lineage OS on a Pixel device.
 
-if there is any mistakes in this guide, please 
+if there is any mistakes in this guide, please make a PR.
 ##### guide written by ben
 
 ## ! NOTICE !
@@ -63,11 +63,9 @@ On the Pixel, use Volume buttons to choose option `Unlock the bootloader` and pr
 
 Once done, you can press Power to boot device. You will boot onto setup. Don't sign in with Google account.
 
-## 2. Flashing Lineage OS 20
+## 2. Downloading Files
 
-### a) Downloading ROM files
-
-Download Gapps (needed for Google play services, Google play, etc.): https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC
+### a) ROM and .img
 
 #### Pixel 7:
 
@@ -80,28 +78,79 @@ For the Pixel 7 series, we will be needed the LineageOS zip as well as 4 img fil
 
 #### Pixel 6:
 
-For the Pixel 6 series, we will be needed the LineageOS zip as well as 4 img files:
+For the Pixel 6 series, we will be needed the LineageOS zip as well as 3 img files:
 - Lineage OS (Download links are below)
 - boot.img
 - dtbo.img
+- vendor_boot.img
 
 #### Pixel 5:
 
-For the Pixel 5 series, we will be needed the LineageOS zip as well as 4 img files:
+For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img files:
 - Lineage OS (Download links are below)
 - boot.img
 - dtbo.img
+- vendor_boot.img
 
-##### Download:
+##### Links:
 
-Pixel 7:
-Pixel 7 pro:
-Pixel 7a: 
+- Pixel 7: https://download.lineageos.org/devices/panther/builds
+- Pixel 7 pro: https://download.lineageos.org/devices/cheetah/builds
+- Pixel 7a: https://download.lineageos.org/devices/lynx/builds
 
-Pixel 6:
-Pixel 6 pro:
-Pixel 6a: 
+- Pixel 6: https://download.lineageos.org/devices/oriole/builds
+- Pixel 6 pro: https://download.lineageos.org/devices/raven/builds
+- Pixel 6a: https://download.lineageos.org/devices/bluejay/builds
 
-Pixel 5:
-Pixel 5 pro:
-Pixel 5a: 
+- Pixel 5: https://download.lineageos.org/devices/redfin/builds
+- Pixel 5a: https://download.lineageos.org/devices/barbet/builds
+
+### b) Google Apps/Services (Gapps)
+
+#### !!! WARNING 2 !!!
+##### It is very important you download Arm64 version or else you will get errors.
+
+We will flash the Gapps right after flashing the OS later.
+Download Gapps: https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC
+
+## 3. Flashing
+
+### a) Partitions
+
+We will start by flashing the .img files.
+
+Since we reset the device by unlocking the bootloader, we will have to do the same steps in developer options:
+
+go to Settings > About > Build number (tap it 7 times).
+Then go to Settings > system > Developer options 
+
+Enable these:
+- OEM Unlocking
+- USB debugging
+
+go to `platform-tools` folder and Click on searchbar then type `CMD`. A command Prompt window should appear.
+
+In the CMD window, type these commands in ORDER:
+
+#### check if device connected to PC 
+this might show a popup on your Pixel asking you to let you use your PC to debug. Just click Allow.
+
+If it shows a string of numbers and letters with the word `unauthorized`, Allow the popup on your phone first.
+```
+adb devices
+```
+Once done, it should show the same string of numbers and letters and with the word `device`.
+
+#### rebooting into fastboot mode (for flashing .img files)
+```
+adb reboot bootloader
+```
+
+#### check if device is connected to PC in fastboot mode
+```
+fastboot devices
+```
+
+### This is the section of the tutorial where we flash the .img files onto the Pixel
+
+
