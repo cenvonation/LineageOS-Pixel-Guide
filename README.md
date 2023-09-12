@@ -1,7 +1,7 @@
 # Welcome!
 This is an unofficial guide to install Lineage OS on a Pixel device.
 
-if there is any mistakes in this guide, please make a PR.
+if there are any mistakes in this guide, please make a PR.
 ##### guide written by ben
 
 ## ! NOTICE !
@@ -95,16 +95,16 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 
 ##### Links:
 
-- Pixel 7: https://download.lineageos.org/devices/panther/builds
-- Pixel 7 pro: https://download.lineageos.org/devices/cheetah/builds
-- Pixel 7a: https://download.lineageos.org/devices/lynx/builds
+- [Pixel 7](https://download.lineageos.org/devices/panther/builds)
+- [Pixel 7 Pro](https://download.lineageos.org/devices/cheetah/builds)
+- [Pixel 7a](https://download.lineageos.org/devices/lynx/builds)
 
-- Pixel 6: https://download.lineageos.org/devices/oriole/builds
-- Pixel 6 pro: https://download.lineageos.org/devices/raven/builds
-- Pixel 6a: https://download.lineageos.org/devices/bluejay/builds
+- [Pixel 6](https://download.lineageos.org/devices/oriole/builds)
+- [Pixel 6 Pro](https://download.lineageos.org/devices/raven/builds)
+- [Pixel 6a](https://download.lineageos.org/devices/bluejay/builds)
 
-- Pixel 5: https://download.lineageos.org/devices/redfin/builds
-- Pixel 5a: https://download.lineageos.org/devices/barbet/builds
+- [Pixel 5](https://download.lineageos.org/devices/redfin/builds)
+- [Pixel 5a](https://download.lineageos.org/devices/barbet/builds)
 
 ### b) Google Apps/Services (Gapps, highly recommended)
 
@@ -234,9 +234,7 @@ The screen will show an error indicating that the Signature Verification Failed,
 Once done you can exit out of `Apply Update` and select `Reboot System Now`.
 
 ## CONGRATS! 🎉
-### You have installed Lineage OS. If you encounter any errors, consider getting support from the Official Discord server.
-
-https://discord.com/invite/gD6DMtf
+### You have installed Lineage OS. If you encounter any errors, consider getting support from the [official Discord server](https://discord.com/invite/gD6DMtf "LineageOS support Discord").
 
 ##
 ##### © 2016 - 2023 The LineageOS Project
