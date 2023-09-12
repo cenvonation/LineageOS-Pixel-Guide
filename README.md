@@ -110,6 +110,9 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 
 ### b) Google Apps/Services (Gapps)
 
+#### ! NOTICE !
+##### GAPPS are optional. If you don't want any Google Play Services and want it to be an OS with stock applications then feel free to skip this.
+
 #### !!! WARNING 3 !!!
 ##### It is very important you download Arm64 version or else you will get errors.
 
