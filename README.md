@@ -21,23 +21,21 @@ Enable these:
 - OEM Unlocking
 - USB debugging
 
-Go to settings > passwords And accounts > remove all Google accounts
+Go to Settings > Passwords and Accounts > Remove all Google accounts
 
 ### b) Downloading ADB/Fastboot commands and Google USB drivers
 
 OPTIONAL: You can make a folder somewhere on your PC and store all of these files on it.
 
-visit this Link and download the Google USB driver ZIPfile:
-https://developer.android.com/studio/run/win-usb
+Download the Google USB driver for Windows [here](https://developer.android.com/studio/run/win-usb "Google ADB USB driver").
 
-visit this link to download ADB/Fastboot commands (SDK platform tools for Windows): 
-https://developer.android.com/tools/releases/platform-tools
+Download ADB Platform Tools for Windows [here](https://developer.android.com/tools/releases/platform-tools "ADB Platform Tools for Windows").
 
-save both ZIPs to your preferred location on your PC.
+Save both ZIPs to your preferred location on your PC.
 
 ### c) Setup
 
-Unzip the Google USB driver and run installer. After installing drivers it is safe to delete installer since you won't need it anymore.
+Unzip the Google USB driver and run the installer. After installing drivers it is safe to delete the installer since you won't need it anymore.
 
 Unzip the SDK platform tools for Windows.
 
@@ -108,16 +106,12 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 - Pixel 5: https://download.lineageos.org/devices/redfin/builds
 - Pixel 5a: https://download.lineageos.org/devices/barbet/builds
 
-### b) Google Apps/Services (Gapps)
-
-#### ! NOTICE !
-##### GAPPS are optional. If you don't want any Google Play Services and want it to be an OS with stock applications then feel free to skip this.
+### b) Google Apps/Services (Gapps, highly recommended)
 
 #### !!! WARNING 3 !!!
 ##### It is very important you download Arm64 version or else you will get errors.
-
-We will flash the Gapps right after flashing the OS later.
-Download Gapps: https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC
+You can choose to flash the Gapps after flashing the OS later.
+Download Gapps [here](https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC "Google Apps").
 
 ## 3. Flashing
 
