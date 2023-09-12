@@ -106,7 +106,10 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 - [Pixel 5](https://download.lineageos.org/devices/redfin/builds)
 - [Pixel 5a](https://download.lineageos.org/devices/barbet/builds)
 
-### b) Google Apps/Services (Gapps, highly recommended)
+### b) Google Apps/Services (Gapps)
+
+#### ! NOTICE !
+GAPPS are optional. If you don't want any Google Play Services and want it to be an OS with stock applications then feel free to skip this.
 
 #### !!! WARNING 3 !!!
 ##### It is very important you download Arm64 version or else you will get errors.
@@ -219,7 +222,10 @@ replace `[LINEAGEOS ZIPFILE NAME]` with the name of the LineageOS zipfile.
 
 Wait for it to flash.
 
-### c) GAPPS (Optional but HIGHLY recommended)
+### c) GAPPS
+
+### ! NOTICE !
+Again, GAPPS are optional. If you don't want any Google Play Services and want it to be an OS with stock applications then feel free to skip this as well.
 
 Once the OS has been successfully flashed we can now finish it up by flashing the GAPPS.
 
