@@ -2,7 +2,7 @@
 This is an unofficial guide to install Lineage OS on a Pixel device.
 
 if there is any mistakes in this guide, please make a PR.
-##### guide written by ben
+##### guide written by exi1643 and Yeet1000
 
 ## ! NOTICE !
 ### this is a guide for Windows users. I advise you to get a hold of a windows PC to continue.
@@ -27,11 +27,9 @@ Go to settings > passwords And accounts > remove all Google accounts
 
 OPTIONAL: You can make a folder somewhere on your PC and store all of these files on it.
 
-visit this Link and download the Google USB driver ZIPfile:
-https://developer.android.com/studio/run/win-usb
+visit [this Link](https://developer.android.com/studio/run/win-usb) and download the Google USB driver ZIPfile
 
-visit this link to download ADB/Fastboot commands (SDK platform tools for Windows): 
-https://developer.android.com/tools/releases/platform-tools
+visit [this link](https://developer.android.com/tools/releases/platform-tools) to download ADB/Fastboot commands (SDK platform tools for Windows)
 
 save both ZIPs to your preferred location on your PC.
 
@@ -97,16 +95,16 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 
 ##### Links:
 
-- Pixel 7: https://download.lineageos.org/devices/panther/builds
-- Pixel 7 pro: https://download.lineageos.org/devices/cheetah/builds
-- Pixel 7a: https://download.lineageos.org/devices/lynx/builds
-
-- Pixel 6: https://download.lineageos.org/devices/oriole/builds
-- Pixel 6 pro: https://download.lineageos.org/devices/raven/builds
-- Pixel 6a: https://download.lineageos.org/devices/bluejay/builds
-
-- Pixel 5: https://download.lineageos.org/devices/redfin/builds
-- Pixel 5a: https://download.lineageos.org/devices/barbet/builds
+| Devices  | Download |
+| ------------- | ------------- |
+| Pixel 7  | [panther](https://download.lineageos.org/devices/panther/builds)  |
+| Pixel 7 Pro  | [cheetah](https://download.lineageos.org/devices/cheetah/builds)  |
+| Pixel 7a  | [lynx](https://download.lineageos.org/devices/lynx/builds)  |
+| Pixel 6  | [oriole](https://download.lineageos.org/devices/oriole/builds)  |
+| Pixel 6 Pro  | [raven](https://download.lineageos.org/devices/raven/builds)  |
+| Pixel 6a  | [bluejay](https://download.lineageos.org/devices/bluejay/builds)  |
+| Pixel 5  | [redfin](https://download.lineageos.org/devices/redfin/builds)  |
+| Pixel 5a  | [barbet](https://download.lineageos.org/devices/barbet/builds)  |
 
 ### b) Google Apps/Services (Gapps)
 
@@ -117,7 +115,7 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 ##### It is very important you download Arm64 version or else you will get errors.
 
 We will flash the Gapps right after flashing the OS later.
-Download Gapps: https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC
+Download Gapps [here](https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC)
 
 ## 3. Flashing
 
@@ -164,43 +162,29 @@ Type these commands in order in the fastboot CMD window:
 #### Pixel 7:
 ```
 fastboot flash boot boot.img
-```
 
-```
 fastboot flash dtbo dtbo.img
-```
 
-```
 fastboot flash vendor_kernel_boot vendor_kernel_boot.img
-```
 
-```
 fastboot flash vendor_boot vendor_boot.img
 ```
 
 #### Pixel 6:
 ```
 fastboot flash boot boot.img
-```
 
-```
 fastboot flash dtbo dtbo.img
-```
 
-```
 fastboot flash vendor_boot vendor_boot.img
 ```
 
 #### Pixel 5:
 ```
 fastboot flash boot boot.img
-```
 
-```
 fastboot flash dtbo dtbo.img
-```
 
-```
 fastboot flash vendor_boot vendor_boot.img
 ```
 
@@ -247,4 +231,4 @@ https://discord.com/invite/gD6DMtf
 ##
 ##### © 2016 - 2023 The LineageOS Project
 ##### LineageOS LLC is not a 501(c)(3) non-profit, as such donations are not tax-exempt.
-##### Unofficial Pixel guide by Ben.
+##### Unofficial Pixel guide by exi1643 and Yeet1000.
