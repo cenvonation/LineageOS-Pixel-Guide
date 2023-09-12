@@ -219,7 +219,7 @@ replace `[LINEAGEOS ZIPFILE NAME]` with the name of the LineageOS zipfile.
 
 Wait for it to flash.
 
-### c) GAPPS
+### c) GAPPS (Optional but HIGHLY recommended)
 
 Once the OS has been successfully flashed we can now finish it up by flashing the GAPPS.
 
