@@ -1,12 +1,12 @@
 # Welcome!
 This is an unofficial guide to install Lineage OS on a Pixel device.
 
-if there is any mistakes in this guide, please make a PR.
+If there are any mistakes in this guide, please make a pull request.
 ##### guide written by exi1643 and Yeet1000
 
 ## ! NOTICE !
-### this is a guide for Windows users. I advise you to get a hold of a windows PC to continue.
-
+### Although this guide is designed for Windows users, many steps are similar on macOS and Linux.
+### If you're running these OSes, remember to download the binaries (ADB platform tools) for your platform.
 ## 1. Unlocking Bootloader
 
 #### !!! WARNING !!!
@@ -14,36 +14,36 @@ if there is any mistakes in this guide, please make a PR.
 
 ### a) Preparing device
 
-go to Settings > About > Build number (tap it 7 times).
-Then go to Settings > system > Developer options 
+Go to Settings > About, then look for Build Number. Tap it 7-8 times until you see "You are now a developer!" or "Development settings have been enabled!"
+Then go to Settings > System > Developer Options.
 
 Enable these:
 - OEM Unlocking
 - USB debugging
 
-Go to settings > passwords And accounts > remove all Google accounts
+Go to Settings > Passwords and accounts, then remove all the Google accounts listed.
 
-### b) Downloading ADB/Fastboot commands and Google USB drivers
+### b) Downloading ADB/Fastboot binaries and Google USB drivers
 
-OPTIONAL: You can make a folder somewhere on your PC and store all of these files on it.
+OPTIONAL: You can make a folder somewhere on your PC and store all of these files in it.
 
-visit [this Link](https://developer.android.com/studio/run/win-usb) and download the Google USB driver ZIPfile
+Visit [this link](https://developer.android.com/studio/run/win-usb) and download the Google USB driver ZIP file.
 
-visit [this link](https://developer.android.com/tools/releases/platform-tools) to download ADB/Fastboot commands (SDK platform tools for Windows)
+Visit [this link](https://developer.android.com/tools/releases/platform-tools) to download ADB/Fastboot binaries (SDK platform tools for Windows).
 
-save both ZIPs to your preferred location on your PC.
+Save both ZIPs to your preferred location on your PC.
 
 ### c) Setup
 
-Unzip the Google USB driver and run installer. After installing drivers it is safe to delete installer since you won't need it anymore.
+Unzip the Google USB driver and run the installer. After installing the drivers it is safe to delete the installer since you won't need it anymore.
 
 Unzip the SDK platform tools for Windows.
 
 ### d) Start Unlock process
 
-Power off your Pixel and hold Power button + Volume down to go into Fastboot mode. once done, plug in the Pixel in the PC.
+Power off your Pixel and hold Power button + Volume down to go into Fastboot mode. Once done, plug the Pixel into the PC.
 
-go to `platform-tools` folder and Click on searchbar then type `CMD`. A command Prompt window should appear.
+Go to the `platform-tools` folder, click on the folder path at the top, then type `CMD`. A Command Prompt window should appear.
 
 In the CMD window, type these commands in ORDER:
 
@@ -106,16 +106,18 @@ For the Pixel 5 series, we will be needed the LineageOS zip as well as 3 img fil
 | Pixel 5  | [redfin](https://download.lineageos.org/devices/redfin/builds)  |
 | Pixel 5a  | [barbet](https://download.lineageos.org/devices/barbet/builds)  |
 
+If your device is not listed here, unfortunately this guide does NOT cover your device at this moment.
+
 ### b) Google Apps/Services (Gapps)
 
 #### ! NOTICE !
-##### GAPPS are optional. If you don't want any Google Play Services and want it to be an OS with stock applications then feel free to skip this.
+##### GAPPS are optional. If you don't want any Google Play Services and want an OS with stock applications then feel free to skip this.
 
 #### !!! WARNING 3 !!!
-##### It is very important you download Arm64 version or else you will get errors.
+##### It is very important you download the arm64 version or else you will run into errors.
 
 We will flash the Gapps right after flashing the OS later.
-Download Gapps [here](https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC)
+Download Gapps [here](https://androidfilehost.com/?w=files&flid=322935&sort_by=date&sort_dir=DESC).
 
 ## 3. Flashing
 
