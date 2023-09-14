@@ -213,13 +213,13 @@ Wait for it to flash.
 
 ### c) GAPPS
 
-Once the OS has been successfully flashed we can now finish it up by flashing the GAPPS.
+Once the OS has been successfully flashed we can now optionally finish it up by flashing the GAPPS.
 
 Now head over to the CMD window open on your computer and type this command:
 ```
 adb sideload [GAPPS ZIPFILE NAME].zip
 ```
-replace `[GAPPS ZIPFILE NAME]` with the name of the LineageOS zipfile.
+replace `[GAPPS ZIPFILE NAME]` with the name of the GAPPS zipfile.
 
 The screen will show an error indicating that the Signature Verification Failed, just hit Yes/continue.
 
