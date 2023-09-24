@@ -2,7 +2,7 @@
 This is an unofficial guide to install Lineage OS on a Pixel device.
 
 If there are any mistakes in this guide, please make a pull request.
-##### guide written by exi1643 and Yeet1000
+##### guide written by arm64 and Yeet1000
 
 ## ! NOTICE !
 ### Although this guide is designed for Windows users, many steps are similar on macOS and Linux.
@@ -233,4 +233,4 @@ https://discord.com/invite/gD6DMtf
 ##
 ##### © 2016 - 2023 The LineageOS Project
 ##### LineageOS LLC is not a 501(c)(3) non-profit, as such donations are not tax-exempt.
-##### Unofficial Pixel guide by exi1643 and Yeet1000.
+##### Unofficial Pixel guide by arm64 and Yeet1000.
